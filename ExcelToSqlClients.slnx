@@ -1,6 +1,8 @@
 <Solution>
+  <Folder Name="/Static/">
+    <Project Path="Static/ExcelToSqlClients.Desktop.WPF/ExcelToSqlClients.Desktop.WPF.csproj" />
+    <Project Path="Static/ExcelToSqlClients.Import.Console/ExcelToSqlClients.Import.Console.csproj" />
+  </Folder>
   <Project Path="ExcelToSqlClients.Core/ExcelToSqlClients.Core.csproj" />
-  <Project Path="ExcelToSqlClients.Desktop.WPF/ExcelToSqlClients.Desktop.WPF.csproj" />
-  <Project Path="ExcelToSqlClients.Import.Console/ExcelToSqlClients.Import.Console.csproj" />
   <Project Path="ExcelToSqlClients.Infrastructure/ExcelToSqlClients.Infrastructure.csproj" />
 </Solution>
