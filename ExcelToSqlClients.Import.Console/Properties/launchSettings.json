@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ExcelToSqlClients.Import.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "--file \"C:\\Users\\NickFeD\\Downloads\\testCards.xlsx\""
+    }
+  }
+}
