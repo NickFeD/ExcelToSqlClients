@@ -1,4 +1,8 @@
 <Solution>
+  <Folder Name="/Dynamic/">
+    <Project Path="Dynamic/ExcelToSqlClients.Dynamic.Desktop.WPF/ExcelToSqlClients.Dynamic.Desktop.WPF.csproj" />
+    <Project Path="Dynamic/ExcelToSqlClients.Dynamic.Import.Console/ExcelToSqlClients.Dynamic.Import.Console.csproj" Id="a963a674-d5d5-455a-8b2f-7665b0b1633c" />
+  </Folder>
   <Folder Name="/Static/">
     <Project Path="Static/ExcelToSqlClients.Desktop.WPF/ExcelToSqlClients.Desktop.WPF.csproj" />
     <Project Path="Static/ExcelToSqlClients.Import.Console/ExcelToSqlClients.Import.Console.csproj" />

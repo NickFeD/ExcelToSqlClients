@@ -1,4 +1,5 @@
 using ExcelToSqlClients.Core.Abstractions;
+using ExcelToSqlClients.Infrastructure.DynamicSql;
 using ExcelToSqlClients.Infrastructure.Import.Excel;
 using ExcelToSqlClients.Infrastructure.Persistence;
 using ExcelToSqlClients.Infrastructure.Repositories;
@@ -28,6 +29,10 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IClientImportService, ClientImportService>();
 
         services.AddScoped<IClientCrudService, ClientCrudService>();
+
+        services.AddSingleton(new SqlConnectionFactory(cs));
+        services.AddSingleton<IDbSchemaService, SqlServerSchemaService>();
+        services.AddSingleton<IDbTableDataService, SqlServerTableDataService>();
 
         return services;
     }

@@ -28,7 +28,7 @@ public sealed class MainViewModel : ObservableObject
     public RelayCommand SaveCommand { get; }
     public RelayCommand ReloadCommand { get; }
 
-    private const int PageSize = 1000;
+    private const int PageSize = 500;
 
     private int _skip = 0;
     private bool _isLoading = false;

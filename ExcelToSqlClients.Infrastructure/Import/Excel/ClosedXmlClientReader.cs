@@ -2,7 +2,8 @@
 using ExcelToSqlClients.Core.Abstractions;
 using ExcelToSqlClients.Core.Entities;
 using ExcelToSqlClients.Core.Models;
-using ExcelToSqlClients.Infrastructure.Import.Excel;
+
+namespace ExcelToSqlClients.Infrastructure.Import.Excel;
 
 public sealed class ClosedXmlClientReader : IClientReader
 {

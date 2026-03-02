@@ -24,8 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ExcelToSqlClients.Core\ExcelToSqlClients.Core.csproj" />
-    <ProjectReference Include="..\ExcelToSqlClients.Infrastructure\ExcelToSqlClients.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\ExcelToSqlClients.Core\ExcelToSqlClients.Core.csproj" />
+    <ProjectReference Include="..\..\ExcelToSqlClients.Infrastructure\ExcelToSqlClients.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
